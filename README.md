@@ -1,6 +1,8 @@
 # breaking-badders
 Full list of breaking bad characters
 
+PLUS: {Try in your phone!!}
+
 ## Available Scripts
 
 In the project directory, you can run:
