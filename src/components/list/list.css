@@ -7,10 +7,31 @@
 
 .list-content {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
   grid-gap: 25px;
 }
 
 .list-content > div > svg {
   grid-template-columns: 1fr;
+}
+
+@media (max-width: 1024px) {
+  .list {
+    width: 100%;
+  }
+  .list-content {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+@media (max-width: 800px) {
+  .list-content {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 600px) {
+  .list-content {
+    grid-template-columns: 1fr;
+  }
 }
