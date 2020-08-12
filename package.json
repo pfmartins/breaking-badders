@@ -3,17 +3,7 @@
   "version": "1.0.0",
   "private": false,
   "description": "Full list of breaking bad characters",
-  "main": "index.js",
   "author": "Paulo Martins",
-  "license": "ISC",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/pfmartins/breaking-badders.git"
-  },
-  "bugs": {
-    "url": "https://github.com/pfmartins/breaking-badders/issues"
-  },
-  "homepage": "https://github.com/pfmartins/breaking-badders#readme",
   "dependencies": {
     "cra-template": "1.0.3",
     "normalize.css": "^8.0.1",
