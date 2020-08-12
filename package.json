@@ -1,0 +1,52 @@
+{
+  "name": "breaking-badders",
+  "version": "1.0.0",
+  "private": false,
+  "description": "Full list of breaking bad characters",
+  "main": "index.js",
+  "author": "Paulo Martins",
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pfmartins/breaking-badders.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pfmartins/breaking-badders/issues"
+  },
+  "homepage": "https://github.com/pfmartins/breaking-badders#readme",
+  "dependencies": {
+    "cra-template": "1.0.3",
+    "normalize.css": "^8.0.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-loader-spinner": "^3.1.14",
+    "react-scripts": "3.4.2"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.5.0",
+    "@testing-library/user-event": "^7.2.1",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16.1": "^1.6.3"
+  }
+}
