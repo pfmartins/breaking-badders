@@ -15,6 +15,29 @@
   grid-template-columns: 1fr;
 }
 
+.list__pagination {
+  display: flex;
+  justify-content: center;
+  background-color: #f0f0f0;
+  width: 100%;
+  margin-top: 20px;
+  align-items: center;
+}
+
+.list__next-page, .list__previous-page  {
+  cursor: pointer;
+  font-size: 20px;
+  color: #000;
+}
+
+.list__next-page:hover, .list__previous-page:hover  {
+  color: #3b3b3b;
+}
+
+.list__previous-page {
+  margin-right: 10px;
+}
+
 @media (max-width: 1024px) {
   .list {
     width: 100%;
